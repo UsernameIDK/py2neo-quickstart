@@ -266,9 +266,8 @@ Step 2: Commit using Py2Neo
     tx.create(LanaWTheMatrix)
     tx.create(JoelSTheMatrix)
     tx.create(EmilTheMatrix)
-    tx.commit()
-
-
+    graph.commit()
+    
 This is just a sample from the more detailed example database provided at:
 https://neo4j.com/developer/movie-database/. The gist of the full dataset can be
 found here: https://gist.github.com/elena/733275bd55fba0a48cd885fe0427e5d4
